@@ -1,0 +1,164 @@
+.container-products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: flex-end; */
+  padding: 0px;
+  position: static;
+  /* max-width: 1440vh; */
+  /* height: 352px;
+  left: 152px;
+  top: 150px; */
+  background: #ffffff;
+}
+.list-products {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* padding: 32px; */
+  position: static;
+  width: 1136px;
+  height: 306px;
+  left: 152px;
+  top: 531px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 64px 0px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 1133px;
+  height: 252px;
+  left: 0px;
+  top: 0px;
+}
+.list-h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #464646;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 18px;
+}
+.list-paragraph {
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2a7ae4;
+  margin-left: 75%;
+}
+/* .icon-img {
+  position: absolute;
+  left: 80%;
+} */
+
+.products {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 1136px;
+  height: 252px;
+  left: 0px;
+  top: 54px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.product {
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 16px;
+}
+.product-Two {
+  top: 0px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 16px;
+}
+.product-Three {
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.product-Four {
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 0px 16px;
+}
+.product-Five {
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
+
+.description {
+  position: static;
+  width: 176px;
+  height: 16px;
+  left: 0px;
+  top: 182px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #464646;
+}
+.price {
+  position: static;
+  width: 176px;
+  height: 19px;
+  left: 0px;
+  top: 206px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* Preto/100% */
+
+  color: #464646;
+}
+
+.mais {
+  position: static;
+  width: 91px;
+  height: 19px;
+  left: 0px;
+  top: 233px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* Azul/100% */
+
+  color: #2a7ae4;
+  cursor: pointer;
+}

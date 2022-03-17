@@ -1,0 +1,176 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 64px;
+  position: static;
+  height: 368px;
+  background: #eaf2fd;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+/* 
+  position: static;
+  width: 1136px;
+  height: 152px;
+  top: 64px; */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 115px;
+}
+
+.links-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+
+  position: static;
+  width: 176px;
+  height: 234px;
+  left: 288px;
+  top: 0px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 112px;
+}
+
+.link-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #464646;
+  text-decoration: none;
+}
+
+.one {
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+.two {
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 18px 0px;
+}
+.three {
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 18px 0px;
+}
+.four {
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 18px 0px;
+}
+
+.five {
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  margin: 18px 0px;
+}
+.six {
+  flex: none;
+  order: 5;
+  flex-grow: 0;
+  margin: 18px 0px;
+}
+.form-contact{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 560px;
+height: 240px;
+left: 576px;
+top: 0px;
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+
+.form-h2 {
+height: 19px;
+left: 0px;
+top: 0px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #464646;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 10px;
+}
+.fields{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 560px;
+height:154px;
+left: 0px;
+top: 27px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+.developer {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 32px;
+
+position: static;
+/* width: 1440px; */
+height: 102px;
+left: 0px;
+top: 368px;
+
+/* Preto/branco */
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
